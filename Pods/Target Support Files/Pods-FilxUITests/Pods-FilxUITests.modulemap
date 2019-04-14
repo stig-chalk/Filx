@@ -1,0 +1,6 @@
+framework module Pods_FilxUITests {
+  umbrella header "Pods-FilxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
