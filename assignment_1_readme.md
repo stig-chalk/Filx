@@ -1,4 +1,5 @@
 # Flix
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
@@ -11,14 +12,10 @@ let task = session.dataTask(with: request) { (data, response, error) in
       print(error.localizedDescription)
    } else if let data = data {
       let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-
-      // TODO: Get the array of movies
-      // TODO: Store the movies in a property to use elsewhere
-      // TODO: Reload your table view data
-
-   }
+         }
 }
 task.resume()` 
+
 ---
 
 ## Flix Part 1
