@@ -18,6 +18,9 @@
 		E47C3F082262A6E300A6C4FE /* FilxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C3F072262A6E300A6C4FE /* FilxTests.swift */; };
 		E47C3F132262A6E300A6C4FE /* FilxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C3F122262A6E300A6C4FE /* FilxUITests.swift */; };
 		E47C3F212262E89500A6C4FE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C3F202262E89500A6C4FE /* MovieCell.swift */; };
+		E4D625E5226BF75A00626049 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D625E4226BF75A00626049 /* DetailsViewController.swift */; };
+		E4D625E7226D143900626049 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D625E6226D143900626049 /* GridViewController.swift */; };
+		E4D625E9226D189300626049 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D625E8226D189300626049 /* GridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		E47C3F122262A6E300A6C4FE /* FilxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilxUITests.swift; sourceTree = "<group>"; };
 		E47C3F142262A6E300A6C4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47C3F202262E89500A6C4FE /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		E4D625E4226BF75A00626049 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E4D625E6226D143900626049 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		E4D625E8226D189300626049 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		FCCB6AE9E9A8B2DD8F5C1165 /* Pods-FilxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilxUITests.debug.xcconfig"; path = "Target Support Files/Pods-FilxUITests/Pods-FilxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +107,6 @@
 				FCCB6AE9E9A8B2DD8F5C1165 /* Pods-FilxUITests.debug.xcconfig */,
 				0B64DE0AD6754BEA7010DD71 /* Pods-FilxUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,11 +147,14 @@
 			children = (
 				E47C3EF22262A6E100A6C4FE /* AppDelegate.swift */,
 				E47C3EF42262A6E100A6C4FE /* ViewController.swift */,
+				E4D625E6226D143900626049 /* GridViewController.swift */,
 				E47C3EF62262A6E100A6C4FE /* Main.storyboard */,
 				E47C3EF92262A6E300A6C4FE /* Assets.xcassets */,
 				E47C3EFB2262A6E300A6C4FE /* LaunchScreen.storyboard */,
 				E47C3EFE2262A6E300A6C4FE /* Info.plist */,
 				E47C3F202262E89500A6C4FE /* MovieCell.swift */,
+				E4D625E4226BF75A00626049 /* DetailsViewController.swift */,
+				E4D625E8226D189300626049 /* GridCell.swift */,
 			);
 			path = Filx;
 			sourceTree = "<group>";
@@ -398,8 +406,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47C3EF52262A6E100A6C4FE /* ViewController.swift in Sources */,
+				E4D625E7226D143900626049 /* GridViewController.swift in Sources */,
 				E47C3EF32262A6E100A6C4FE /* AppDelegate.swift in Sources */,
 				E47C3F212262E89500A6C4FE /* MovieCell.swift in Sources */,
+				E4D625E5226BF75A00626049 /* DetailsViewController.swift in Sources */,
+				E4D625E9226D189300626049 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
